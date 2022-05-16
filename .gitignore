@@ -1,4 +1,4 @@
-/vendor/
+profile/vendor/
 node_modules/
 npm-debug.log
 yarn-error.log
@@ -12,12 +12,50 @@ public/storage
 public/hot
 
 # Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
+profile/public_html/storage
+profile/public_html/hot
 
-storage/*.key
-.env
-Homestead.yaml
-Homestead.json
-/.vagrant
-.phpunit.result.cache
+profile/storage/*.key
+profile/.env
+profile/Homestead.yaml
+profile/Homestead.json
+breeze-next/.vagrant
+breeze-next/.phpunit.result.cache
+
+
+##############################
+
+
+# dependencies
+breeze-next/node_modules
+breeze-next/.pnp
+breeze-next/.pnp.js
+
+# testing
+breeze-next/coverage
+
+# next.js
+breeze-next/.next/
+breeze-next/out/
+
+# production
+breeze-next/build
+
+# misc
+breeze-next/.DS_Store
+breeze-next/*.pem
+
+# debug
+breeze-next/npm-debug.log*
+breeze-next/yarn-debug.log*
+breeze-next/yarn-error.log*
+
+# env files
+breeze-next/.env
+breeze-next/.env.local
+breeze-next/.env.development.local
+breeze-next/.env.test.local
+breeze-next/.env.production.local
+
+# vercel
+breeze-next/.vercel
